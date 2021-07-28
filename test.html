@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Title -->
+	<title>Web Solutions - Home </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href=/assets/favicon.ico?0524 rel=icon>
+	<link href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css rel=stylesheet
+	  crossorigin=anonymous
+	  integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p>
+	<link rel="stylesheet" href="css/test.css"/>	<!-- stylesheet css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+</head>
+
+<form class="pricing-calculator">
+    <div class="price_form_wrap">
+    
+      <div class="selection-wrap">
+        <h2>Calculate your price</h2>
+        <div class="toggle">
+          <input type="radio" name="level" value="Branded" id="levelBranded" checked="checked" />
+          <label for="levelBranded">Branded</label>
+          <input type="radio" name="level" value="Personalized" id="levelPersonalized" />
+          <label for="levelPersonalized">Personalized</label>
+          <input type="radio" name="level" value="Ultimate" id="levelUltimate" />
+          <label for="levelUltimate">Ultimate</label>
+        </div>
+        <div class="input_container">
+          <label for="copypages">Copywriting # Of Pages: <span>0</span></label>
+          <input type="range" min="0" max="100" value="0" class="slider" name="copypages" id="myRange">
+        </div>
+        <div class="input_container">
+          <label for="noncopypages">Non-Copywriting Pages: <span>10</span></label>
+          <input type="range" min="0" max="100" value="10" class="slider" name="noncopypages" id="myRange">
+        </div>
+        <div class="toggle">
+          <input type="radio" name="delivery" value="Basic" id="deliveryBasic" checked="checked" />
+          <label for="deliveryBasic">Basic <span>8-12 weeks</span></label>
+          <input type="radio" name="delivery" value="Fast" id="deliveryFast" />
+          <label for="deliveryFast">Fast <span>4-8 weeks</span></label>
+          <input type="radio" name="delivery" value="Express" id="deliveryExpress" />
+          <label for="deliveryExpress">Express <span>2-4 weeks</span></label>
+        </div>
+        <div class="toggle">
+          <input type="checkbox" name="seo" value="SEO" id="seo" checked="checked" />
+          <label for="deliveryBasic">SEO</label>
+          <input type="checkbox" name="ssl" value="SSL" id="ssl" />
+          <label for="ssl">SSL</label>
+          <input type="checkbox" name="ecommerce" value="Ecommerce" id="ecommerce" />
+          <label for="ecommerce">Ecommerce</label>
+        </div>
+      </div>
+      <div class="total-wrap">
+        <div class="total">
+          <span>Total Price</span>
+          <span id="amount"></span>
+        </div>
+        <div class="review">
+          <div id="website-type">Website Type: <span></span></div>
+          <div id="copywriting-num">Copywriting Pages: <span></span></div>
+          <div id="non-copywriting-num">Non-Copywriting Pages: <span></span></div>
+          <div id="delivery">Delivery: <span></span></div>
+          <div id="add-ons"><strong>Add-ons:</strong></div>
+          <div id="sslchosen">SSL: <span>No</span></div>
+          <div id="ecommercechosen">Ecommerce: <span>No</span></div>
+        </div>
+      </div>
+    </div>
+    </form>
+
+<script>
+    
+</script>
+<script src="test.js"> </script> 
